@@ -421,6 +421,15 @@ const devices = [
         },
     },
     {
+        zigbeeModel: ['TRADFRI remote control'],
+        model: 'E1524',
+        vendor: 'IKEA',
+        description: 'TRADFRI remote control',
+        supports: 'stuff',
+        fromZigbee: [fz.ignore_onoff_change, fz.generic_state],
+        toZigbee: [],
+    },
+    {
         zigbeeModel: ['TRADFRI transformer 10W'],
         model: 'ICPSHC24-10EU-IL-1',
         vendor: 'IKEA',
